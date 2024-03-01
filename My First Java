@@ -1,0 +1,55 @@
+class mycode{
+    mycode(){
+        System.out.println(" This is mycode");
+    }
+    void printinfo()
+    {
+        System.out.println("Name: Sabiha Mahjabin Moon");
+        System.out.println("ID: 221002236");
+        System.out.println("Semester: Spring 2023");
+       
+        multiply(12, 3) ;
+    }
+    void sum (int a, int p){
+        int c = a+p ;
+        int d = a-p ;
+        System.out.println("Sum = "+ c +" Sub = " +d);
+        for (int i = 1; i<=20 ;i++){
+            if (i%2==0){
+              System.out.println("Even " +i);  
+            }
+            if (i%3==0){
+            System.out.println("Odd and divisible by 3 =  " +i);
+        }
+                else {
+                   
+            System.out.println("Even = " +i);
+       
+               
+                }
+    }
+    }
+    private void multiply (int a, int p){
+        int z = a*p ;
+        System.out.println("multiply = " + z);
+    }
+}
+public class Ytreyugh {
+   static  void calculate( int x , int y)
+    {
+        int d = x/y ;
+        System.out.println("Division = " +d);
+       
+    }
+
+    public static void main(String[] args) {
+        System.out.println("Hello World!");
+        System.out.println("What's your problem !");
+        mycode abc = new mycode () ;
+        abc.printinfo();
+        abc.sum(10, 30);
+        calculate(50 , 10);
+        //printinfo()
+    }
+   
+}
