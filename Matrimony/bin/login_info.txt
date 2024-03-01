@@ -1,0 +1,15 @@
+asif
+123
+Anowarul Asif
+Male
+016.... 
+anowarul.asif@gmail.com 
+Dhaka
+21
+9 December 2001
+D:\versity\4th semester\OOP lab\Love in a byte\TinderLite\src\profile_pic.jpg
+Female
+Short-term Relation
+Sleeping
+Student 
+Coding
